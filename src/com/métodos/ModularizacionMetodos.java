@@ -338,7 +338,7 @@ public class ModularizacionMetodos {
 	}
 	public static int factorial(int numero) { //Realiza la operación del factorial.
 		if(numero<0){ //Si el número es menor a 0 hace una excepción.
-			throw new IllegalArgumentException("Error: No se puede sacar facorial de un número negativo."); //Imprime cuando el número es inválido como los negativos.
+			throw new IllegalArgumentException("Error: No se puede sacar factorial de un número negativo."); //Imprime cuando el número es inválido como los negativos.
 		}else if(numero==0 || numero==1) {
 			return 1; //Si los numeros ingresados son 1 y 0 retorna 1.
 		} else {
